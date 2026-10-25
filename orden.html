@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Página Organizada</title>
+    
+    <!-- Usamos la etiqueta style para centrar TODO el contenido de la página -->
+    <style>
+        body {
+            text-align: center; /* Esto centra los textos e imágenes */
+            font-family: Arial, sans-serif; /* Cambia la letra para que se vea mejor */
+            background-color: #f4f4f4; /* Un gris clarito de fondo */
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ================= SECCIÓN 1: TÍTULO PRINCIPAL ================= -->
+    <h1>Bienvenido a mi Proyecto Flask</h1>
+    <p>En esta página he organizado todos los temas que hemos visto.</p>
+    
+    <!-- hr crea una línea separadora -->
+    <hr> 
+
+
+    <!-- ================= SECCIÓN 2: TEXTO E IMAGEN ================= -->
+    <!-- Usamos div para agrupar esta sección -->
+    <div>
+        <h2>Sobre los Hábitats</h2>
+        <p>Aquí explicamos la teoría de los hábitats naturales.</p>
+        
+        <!-- Imagen con la ruta relativa -->
+        <img src="Imagenes_flask/mapadehabitat_tortolita.jpg" width="300px" style="border: 2px solid black;">
+        <br> <!-- Salto de línea para que el texto de abajo no quede pegado -->
+        <p><i>Figura 1: Mapa de hábitat de la tortolita.</i></p>
+    </div>
+
+    <hr> <!-- Otra línea separadora -->
+
+
+    <!-- ================= SECCIÓN 3: MULTIMEDIA (VIDEO Y AUDIO) ================= -->
+    <div>
+        <h3>Recursos Multimedia</h3>
+        <p>A continuación, un video y un audio de ejemplo:</p>
+        
+        <!-- Video -->
+        <video width="400" controls>
+            <source src="Imagenes_flask/mivideo.mp4" type="video/mp4">
+            Tu navegador no soporta video.
+        </video>
+        
+        <br><br> <!-- Doble salto de línea para separar video del audio -->
+
+        <!-- Audio -->
+        <h4>Escucha este audio:</h4>
+        <audio controls>
+            <source src="Imagenes_flask/miaudio.mp3" type="audio/mpeg">
+            Tu navegador no soporta audio.
+        </audio>
+    </div>
+
+    <hr>
+
+
+    <!-- ================= SECCIÓN 4: ENLACES ================= -->
+    <div>
+        <h4>Enlaces de Interés</h4>
+        <p>Visita estas páginas para más información:</p>
+        <a href="https://www.google.com" target="_blank">Ir a Google</a> | 
+        <a href="https://www.youtube.com" target="_blank">Ir a YouTube</a>
+    </div>
+
+</body>
+</html>
