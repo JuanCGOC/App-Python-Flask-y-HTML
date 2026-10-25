@@ -79,7 +79,7 @@ Ideal para simular el entorno de producción real del proyecto.
 
 ## 👨‍💻 Autor
 
-  * Juan Cesar Gil Gallegos.
+  * jx.ia.rx.web@gmail.com
 
 ## 📄 Licencia
 
